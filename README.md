@@ -24,7 +24,7 @@ Pytorch implementation of [Deep Color Consistent Network for Low Light-Image Enh
 @inproceedings{zhang2022deep,
   title={Deep Color Consistent Network for Low-Light Image Enhancement},
   author={Zhao Zhang, Huan Zheng, Richang Hong, Mingliang Xu, Shuicheng Yan and Meng Wang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition },
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2022}
 }
 ```
