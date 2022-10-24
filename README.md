@@ -19,7 +19,7 @@ Download the pretrained model on LOL dataset from [this link](https://drive.goog
 
 ### Bibtex:
 ```
-@inproceedings{zheng2021gcm,
+@inproceedings{zhang2021deep,
   title={Deep Color Consistent Network for Low-Light Image Enhancement},
   author={Zhao Zhang, Huan Zheng, Richang Hong, Mingliang Xu, Shuicheng Yan and Meng Wang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition },
