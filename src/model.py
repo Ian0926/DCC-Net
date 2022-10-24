@@ -160,7 +160,7 @@ class c_net(nn.Module):
 
         self.conv_first = BasicConv(3, base_channel, 3, 1)
         
-        # color hist attention
+        # color hist
         self.conv_color = BasicConv(base_channel*4, 256*3, 3, 1)
         self.pooling = nn.AdaptiveAvgPool2d(1)
         self.fc = nn.Linear(256, d_hist)
