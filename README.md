@@ -14,10 +14,10 @@
 > 2) **The testing results of LOL dataset** can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results).
 
 ### Test:
-`python eval.py --filepath img_path --pretrain_path model_path`
+`python test.py --filepath img_path --pretrain_path model_path`
 
 ### Evaluation
-`python fr_metrics.py --data-path gt_path --output-path pre_img_path`
+`python metrics.py --data-path gt_path --output-path pre_img_path`
 
 ### Bibtex:
 ```
