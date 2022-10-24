@@ -1,6 +1,7 @@
 # Deep Color Consistent Network for Low Light-Image Enhancement (CVPR 2022)
 
 Pytorch implementation of [Deep Color Consistent Network for Low Light-Image Enhancement](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Deep_Color_Consistent_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.pdf).
+Note that we have done some adjustments to the model for flexibility (processing images of different resolutions).
 
 ### Environment:
 1. Python 3.6 
@@ -9,7 +10,7 @@ Pytorch implementation of [Deep Color Consistent Network for Low Light-Image Enh
 4. cuda 11.4
 
 ### Pretrained Model and Visual Results: 
-Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results). Note that we have done some adjustments to the model for fewer parameters and better results.
+Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results).
 
 ### Test:
 `python eval.py --filepath img_path --pretrain_path model_path`
