@@ -9,7 +9,7 @@ Official Pytorch implementation of [Deep Color Consistent Network for Low Light-
 4. cuda 11.4
 
 ### Pretrained Model and Results: 
-Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results). Note that we have done some adjustments.
+Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results). Note that we have done some adjustments for less parameters and better results.
 
 ### Test:
 `python eval.py --filepath img_path --pretrain_path model_path`
