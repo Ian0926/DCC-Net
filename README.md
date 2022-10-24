@@ -9,8 +9,11 @@ Pytorch implementation of [Deep Color Consistent Network for Low Light-Image Enh
 3. torchvision 0.4.1
 4. cuda 11.4
 
-### Pretrained Model and Visual Results: 
-Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results).
+### Visual Results:
+The results on LOL dataset can be found [here](https://github.com/Ian0926/DCC-Net/tree/main/results).
+
+### Pretrained Model: 
+Download the pretrained model on LOL dataset from [this link](https://drive.google.com/u/0/uc?id=134wM6wz0GdC6QXaeyrtQy6tyHpuRZ8Jp&export=download). 
 
 ### Test:
 `python eval.py --filepath img_path --pretrain_path model_path`
