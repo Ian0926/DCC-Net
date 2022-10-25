@@ -1,7 +1,7 @@
 # Deep Color Consistent Network for Low Light-Image Enhancement (CVPR 2022)
 
 > Pytorch implementation of [Deep Color Consistent Network for Low Light-Image Enhancement](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Deep_Color_Consistent_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.pdf).
-**Note that we do some adjustments to the model for flexibility**.
+**Note that we do some adjustments to the model for flexibility**. Please refer to the code for detailes.
 
 ### Environment:
 > 1. Python 3.6 
